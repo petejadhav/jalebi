@@ -14,7 +14,7 @@ def getCharGroup(ch):
             return idx
     return -1#code
 
-
+# Takes boundary/edge character for split
 def jalebiSplit(raw_str):
     output = []
     substring = ""
@@ -34,6 +34,8 @@ def jalebiSplit(raw_str):
     output.append(substring)
     return output[1:]
 
+
+# Takes boundary/edge character for split but does not add it to list
 def jalebi(raw_str):
     output = []
     substring = ""
